@@ -27,6 +27,7 @@ public class OrdenaStringsLambda {
 		// ------ consumir uma string com foreach java 8
 		palavras.forEach(s -> { System.out.println(s); }); // cara vez que percorrer ele executa o accept
 		
+		palavras.forEach(System.out::println); // usando references
 		
 		// exemplo com thread usando lambda
 		new Thread(() -> System.out.println("Executando um Runnable")).start();
