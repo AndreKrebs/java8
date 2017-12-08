@@ -37,7 +37,7 @@ public class OrdenaStrings {
 		
 		// ------ consumir uma string com foreach java 8
 		Consumer<String> consumidor = new ConsumidorDeStrings();
-		palavras.forEach(consumidor);
+		palavras.forEach(consumidor); // cara vez que percorrer ele executa o accept
 		
 	}
 }
